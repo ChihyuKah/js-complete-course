@@ -14,12 +14,12 @@ document.getElementById("run").addEventListener("click", function() {
 // for structure is correct
     for (let i = 1; i <=21; i++) {
 
-        // figuring out this part.
-
-        alert(i*2);
+       //Don't forget the Capital letter in Math
+        
+        alert(Math.pow(i,2));
     }
 
-})
+});
 
 
 

@@ -20,16 +20,17 @@
          var optwo = document.getElementById("op-two").value;
          var sum = parseInt(opone)+ parseInt(optwo);
             alert(sum);
+            location.reload()
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
-
 
 
         var opone = document.getElementById("op-one").value;
         var optwo = document.getElementById("op-two").value;
         var sub = parseInt(opone)- parseInt(optwo);
         alert(sub);
+        location.reload()
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
@@ -38,6 +39,7 @@
         var optwo = document.getElementById("op-two").value;
         var mul = parseInt(opone)* parseInt(optwo);
         alert(mul);
+        location.reload()
 
     });
 
@@ -47,5 +49,6 @@
         var optwo = document.getElementById("op-two").value;
         var div = parseInt(opone)/ parseInt(optwo);
         alert(div);
+        location.reload()
     });
 })();

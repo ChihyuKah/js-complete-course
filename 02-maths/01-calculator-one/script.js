@@ -6,35 +6,46 @@
  * started at 26/10/2018
  */
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
-var a = +document.getElementById("op-one").value;
-var b = +document.getElementById("op-two").value;
+
 
 (function() {
-    // to get the value of an input: document.getElementById("element-id").value
+    var opone;
+    var optwo;
 
+     document.getElementById("addition").addEventListener("click", function() {
 
-    document.getElementById("addition").addEventListener("click", function() {
-        // perform an addition
-        alert(a+b);
+         //With the help of my colleague I changed the position of the code below
+
+         var opone = document.getElementById("op-one").value;
+         var optwo = document.getElementById("op-two").value;
+         var sum = Number(opone)+ Number(optwo);
+            alert(sum);
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
-        // perform an substraction
-        alert(a-b);
 
+      
+
+        var opone = document.getElementById("op-one").value;
+        var optwo = document.getElementById("op-two").value;
+        var sub = Number(opone)- Number(optwo);
+        alert(sub);
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
-        // perform an multiplication
-        alert(a*b);
+
+        var opone = document.getElementById("op-one").value;
+        var optwo = document.getElementById("op-two").value;
+        var mul = Number(opone)* Number(optwo);
+        alert(mul);
 
     });
 
     document.getElementById("division").addEventListener("click", function() {
-        // perform an division
-        alert(a/b);
 
+        var opone = document.getElementById("op-one").value;
+        var optwo = document.getElementById("op-two").value;
+        var div = Number(opone)/ Number(optwo);
+        alert(div);
     });
 })();

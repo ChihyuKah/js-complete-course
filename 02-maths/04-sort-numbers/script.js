@@ -15,11 +15,11 @@
 
     document.getElementById("run").addEventListener("click", function () {
 
-        
 
-        let sort = document.getElementById("numbers").value.split(", ");
-        sort.sort((a, b) => a - b);
-        confirm(sort);
+
+        let sortNumber = document.getElementById("numbers").value.split(", ");
+        sortNumber.sort((a, b) => a - b);
+        document.getElementById("numbers").innerHTML = sortNumber;
 
 
     });

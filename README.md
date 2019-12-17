@@ -2,6 +2,8 @@
 
 Progression of exercises
 
-[Completed base 01](https://github.com/ChihyuKah/js-complete-course/tree/master/01-base)
+[Completed  01 base](https://github.com/ChihyuKah/js-complete-course/tree/master/01-base)
 
-[In progress calc](https://github.com/ChihyuKah/js-complete-course/tree/master/02-maths/01-calculator-one)
+[In progress 02 math](https://github.com/ChihyuKah/js-complete-course/tree/master/02-maths)
+
+Current exercise: 2.2

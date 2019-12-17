@@ -18,17 +18,17 @@
 
          var opone = document.getElementById("op-one").value;
          var optwo = document.getElementById("op-two").value;
-         var sum = Number(opone)+ Number(optwo);
+         var sum = parseInt(opone)+ parseInt(optwo);
             alert(sum);
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
 
-      
+
 
         var opone = document.getElementById("op-one").value;
         var optwo = document.getElementById("op-two").value;
-        var sub = Number(opone)- Number(optwo);
+        var sub = parseInt(opone)- parseInt(optwo);
         alert(sub);
     });
 
@@ -36,7 +36,7 @@
 
         var opone = document.getElementById("op-one").value;
         var optwo = document.getElementById("op-two").value;
-        var mul = Number(opone)* Number(optwo);
+        var mul = parseInt(opone)* parseInt(optwo);
         alert(mul);
 
     });
@@ -45,7 +45,7 @@
 
         var opone = document.getElementById("op-one").value;
         var optwo = document.getElementById("op-two").value;
-        var div = Number(opone)/ Number(optwo);
+        var div = parseInt(opone)/ parseInt(optwo);
         alert(div);
     });
 })();

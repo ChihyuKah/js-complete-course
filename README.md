@@ -6,4 +6,4 @@ Progression of exercises
 
 [In progress 02 math](https://github.com/ChihyuKah/js-complete-course/tree/master/02-maths)
 
-Current exercise: 2.2
+Current exercise: 2.4

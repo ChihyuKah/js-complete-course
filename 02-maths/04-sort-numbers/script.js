@@ -16,10 +16,14 @@
     document.getElementById("run").addEventListener("click", function () {
 
 
-
         let sortNumber = document.getElementById("numbers").value.split(", ");
+
+
         sortNumber.sort((a, b) => a - b);
-        document.getElementById("numbers").innerHTML = sortNumber;
+
+
+
+        document.getElementById("numbers").value = sortNumber;
 
 
     });

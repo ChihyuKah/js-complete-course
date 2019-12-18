@@ -18,7 +18,7 @@
         // this is to get the value from the input field
         var x= document.getElementById("number").value;
 
-        
+
         for (var y =x-1; y >=1; y--) {
             x = x * y;
         }

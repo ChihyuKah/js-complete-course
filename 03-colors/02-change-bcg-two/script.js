@@ -9,8 +9,18 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+
 (function() {
+    // Getting the click
+    document.getElementById("run").addEventListener("click", function() {
 
-    // your code here
+        let background;
 
+        background = document.getElementById("color").value;
+
+
+        document.body.style.backgroundColor = background;
+     
+
+    });// my code did not work because of the last 2 angle brackets!!!!! after I added them it did work.
 })();

@@ -11,6 +11,21 @@
 
 (function() {
 
-    // your code here
+    document.getElementById("run").addEventListener("click", function() {
 
+        //Getting random color code (RGB)
+
+        function getRandomColor(min, max) {
+            return Math.floor(Math.random()*(max-min+1)) + min;
+        }
+
+
+            // Defining actual the number min and max
+            var red=getRandomColor(0,255);
+            var green= getRandomColor(0,255);
+            var blue =getRandomColor(0,255);
+
+            // Changing the color
+            document.body.style.backgroundColor="rgb("+red+','+green+','+blue+")";
+    })
 })();

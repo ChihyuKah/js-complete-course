@@ -10,4 +10,4 @@ Progression of exercises
 
 [In progress 04 dates](https://github.com/ChihyuKah/js-complete-course/tree/master/04-dates)
 
-Current exercise: 4.3
+Current exercise: 4.3 (This will take longer than I expected)

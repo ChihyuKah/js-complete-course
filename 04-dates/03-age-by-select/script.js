@@ -13,12 +13,15 @@
 
     document.getElementById("run")addEventListener("click", function () {
 
-    })
+
 
         var getDay = document.getElementById("dob-day").value;
         var getMonth = document.getElementById("dob-month").value;
         var getYear = document.getElementById("dob-year").value;
 
         var currentDate = new Date();
-       
+
+        var dob = new Date(y, m, d);
+         console.log(dob);
+    
 })();

@@ -11,8 +11,23 @@
 
 (function() {
 
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
-    // your code here
+    var greeting;
+
+    //Get new hours
+    var time = new Date().getHours();
+
+    if (time < 18) {
+        greeting = "Hello, it's me"}
+
+    else if (time > 18) {
+        greeting = "Good evening"}
+
+    else {
+        greeting = "The World is going to END!"
+    }
+
+    document.getElementById("target").innerHTML = greeting;
+
 
 })();

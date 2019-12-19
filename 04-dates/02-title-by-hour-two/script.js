@@ -13,19 +13,20 @@
 
     var greeting;
 
-    //Get new hours
-    var time = new Date().getHours();
+    //Get new hours and minutes
+    var hour = new Date().getHours();
+    var minute  =new Date().getMinutes();
 
-    if (time < 18) {
-        greeting = "Hello, it's me"}
+    if (hour <= 17 && minute <= 30) {
+        greeting = "testing testing"}
 
-    else if (time > 18) {
+    else if (hour >= 18 && minute >=31) {
         greeting = "Good evening"}
 
     else {
         greeting = "The World is going to END!"
     }
-
+    // showing it in the HTML
     document.getElementById("target").innerHTML = greeting;
 
 })();

@@ -18,7 +18,7 @@
     var minute  =new Date().getMinutes();
 
     if (hour <= 17 && minute <= 30) {
-        greeting = "testing testing"}
+        greeting = "Hello it's me"}
 
     else if (hour >= 18 && minute >=31) {
         greeting = "Good evening"}

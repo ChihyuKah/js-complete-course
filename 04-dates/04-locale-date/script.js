@@ -10,14 +10,23 @@
 // You will have time to focus on it later.
 
 (function() {
-
-
+    // The format it's asking is DAY, DATE, MONTH , YEAR, HOURh MINUTES
+                                //Sunday 28 December 2018 22h23
+    //Judging by the links I searched for I will need to use an Array for this
     var newDate = new Date();
     document.getElementById("target").innerHTML = newDate;
 
-    
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+    var day = getDay();
+    var date = getDate();
+    var month = getMonth();
+    var year = getYear();
+    var hour = getHour();
+    var minute = getMinute();
 
-    // your code here
+        //testing purposes
+
+    console.log("day" + " " + "date" + " " + "month" + " " + "year" + " " + "hour" + " " + "minute")
+
+   
 
 })();

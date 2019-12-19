@@ -10,6 +10,9 @@ Progression of exercises
 
 [In progress 04 dates](https://github.com/ChihyuKah/js-complete-course/tree/master/04-dates)
 
-Current exercise: 4.3 (This will take longer than I expected)
+[Watching this tut](https://www.youtube.com/watch?v=-eRsWqwcPuk)
 
-[Watching a tut about calculating age](https://www.youtube.com/watch?v=Q3oiSwdGAq8)
+Current exercise: 4.4
+
+
+

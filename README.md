@@ -14,5 +14,7 @@ Progression of exercises
 
 Current exercise: 4.4
 
+Resuming the exercise
+
 
 

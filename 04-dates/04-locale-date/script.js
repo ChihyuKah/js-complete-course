@@ -7,21 +7,28 @@
     var day = dob.getDay();
 
     console.log(day);
-    
 
     document.getElementById("target").innerHTML = newDate;
-    // Problem was not getting assigned
-    // var day = newDate.getDay();
-    // var date = newDate.getDate();
-    // var month = newDate.getMonth();
-    // var year = newDate.getFullYear();
-    // var hour = newDate.getHours();
-    // var minute = newDate.getMinutes();
+    //Problem was not getting assigned
+    var day = newDate.getDay();
+    var date = newDate.getDate();
+    var month = newDate.getMonth();
+    var year = newDate.getFullYear();
+    var hour = newDate.getHours();
+    var minute = newDate.getMinutes();
 
         //testing purposes
 
-    console.log("dah" + " " + "date" + " " + "month" + " " + "year" + " " + "hour" + " " + "minute")
 
+        let days=["Sunday", "Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        let months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 
+            var DayOfWeek ="";
+            var fullMonth ="";
+
+            DayOfWeek = days [day];
+            fullMonth = months [month];
+
+    document.getElementById("target").innerHTML = weekDay +" "+ date +" " + fullMonth + " " + year +"," + hour +"h" + min;
 
 })();

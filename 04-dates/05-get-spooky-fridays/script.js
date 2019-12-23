@@ -14,22 +14,30 @@
 
         var test = document.getElementById("year").value;
 
-
+        //To get a new date that starts with the 13th
         var d = new Date();
         d.setFullYear(year , 0, 13);
 
 
-        var counter = 0;
-        var months = 0;
-        while(months <= 11) {
-            months++;
-            if(d.getDay() == 5 && d.getDate() == 13) {
-                counter++;
-            }
-        }
+        var months =[];
+        var m = ["January" + "" + "February" + "" + "March" + "" + "April" + "" + "June" + "" + "July" + "" +
+        "August" + "" + "September" + "" + "October" + "" + "November" + "" + "December"];
+
+
+
+
+        for (m=0; m <= 11; m++)
+        // while(months <= 11) {
+        //     months++;
+        //     if(d.getDay() == 5 && d.getDate() == 13) {
+        //         counter++;
+        //     }
+        // }
         console.log(counter);
 
     })
     // your code here
 
 })();
+
+

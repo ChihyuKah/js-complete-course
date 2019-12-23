@@ -24,6 +24,17 @@
         "cerise",
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener("click", function () {
+
+        // fruits.shift();
+        // fruits.pop();
+        // fruits.push("kiwi");
+        // fruits.splice(0,0, "banana");
+        //At this point I realised I can just use 2 lines of code with splice
+
+        fruits.splice(0,1, "banana");
+        fruits.splice(-1,1, "kiwi");
+        alert(fruits);
+    })
 
 })();

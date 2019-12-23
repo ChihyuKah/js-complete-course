@@ -27,8 +27,9 @@
     ];
 
     document.getElementById("run").addEventListener("click", function () {
+
+        //Displays the 4th fruit because arrays starts from 0
        alert(fruits[3]);
     })
-    // your code here
-
+ 
 })();

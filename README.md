@@ -12,7 +12,7 @@ Progression of exercises
 
 [In progress 05 arrays](https://github.com/ChihyuKah/js-complete-course/tree/master/05-arrays)
 
-Current exercise: 5.4
+Current exercise: 5.8
 
 
 

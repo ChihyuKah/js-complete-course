@@ -26,6 +26,8 @@
         "cerise",
     ];
 
-    // your code here
+    fruits.forEach(item); {
+        document.getElementById("demo").innerHTML += index + ":" + item + "<br>"
+    }
 
 })();

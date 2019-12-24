@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    document.getElementById("run").addEventListener("click", function () {
     var fruits = [
         "pomme",
         "poire",
@@ -25,9 +25,11 @@
         "raisin",
         "cerise",
     ];
+        //Don't forget the function in the code below!
+    fruits.forEach(function(fruits)
+        {
+            console.log(fruits);
+        });
 
-    fruits.forEach(item); {
-        document.getElementById("demo").innerHTML += index + ":" + item + "<br>"
-    }
-
+    })
 })();

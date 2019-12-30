@@ -27,7 +27,8 @@
         "raisin",
         "cerise",
     ];
-
-    // your code here
+        //Set gives you unique values in return
+    var noDupe = [...new Set(fruits)];
+    console.log(noDupe);
 
 })();

@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    // your code here
+    
+    document.getElementById("target").innerHTML =("Owned")
 
 })();

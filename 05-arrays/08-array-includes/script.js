@@ -28,12 +28,18 @@
             "cherry",
         ];
 
-   
 
-        if (fruits.)
-        console.log(fruits)
+
+        if (fruits.includes ("apple")) {
+            return console.log("yes")
+
+        }
+        else {
+            return  console.log("no")
+        }
 
 
 
     });
 })();
+

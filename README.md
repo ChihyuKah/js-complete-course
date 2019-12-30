@@ -8,11 +8,13 @@ Progression of exercises
 
 [Completed 03 colors](https://github.com/ChihyuKah/js-complete-course/tree/master/03-colors)
 
-[Completed dates](https://github.com/ChihyuKah/js-complete-course/tree/master/04-dates)
+[Completed 04 dates](https://github.com/ChihyuKah/js-complete-course/tree/master/04-dates)
 
-[In progress 05 arrays](https://github.com/ChihyuKah/js-complete-course/tree/master/05-arrays)
+[Completed 05 arrays](https://github.com/ChihyuKah/js-complete-course/tree/master/05-arrays)
 
-Current exercise: 5.8
+[Completed 06 dom](https://github.com/ChihyuKah/js-complete-course/tree/master/06-dom)
+
+Current exercise: 6.1
 
 
 

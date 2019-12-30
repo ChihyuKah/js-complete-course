@@ -56,7 +56,7 @@
        }, 0);
        document.getElementById("sum").innerHTML = sum;
 
-       var avg = allNumb / allNumb.length;
+       var avg = sum / allNumb.length;
 
        document.getElementById("average").innerHTML = avg;
 

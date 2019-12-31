@@ -11,6 +11,13 @@
 
 (function() {
 
-    // your code here
+
+
+        elements = document.querySelectorAll("p.target");
+
+        for (var i = 0; i < elements.length  ; i++) {
+            elements[i].innerHTML ="OwneD"
+        }
+
 
 })();

@@ -11,6 +11,22 @@
 
 (function() {
 
-    // your code here
+    // get image
+    var image = document.getElementById("source").getAttribute("data-image");
+
+    // to test
+    console.log(image);
+
+    var newImage = document.createElement("image");
+
+    newImage.setAttribute("src", image);
+
+
+    var newFigure = document.getElementById("target");
+
+    newFigure.setAttribute("src", image);
+
+
+    document.getElementById("source").remove();
 
 })();

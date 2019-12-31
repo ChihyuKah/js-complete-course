@@ -17,16 +17,14 @@
     // to test
     console.log(image);
 
-    var newImage = document.createElement("image");
-
+    var newImage = document.createElement("img");
     newImage.setAttribute("src", image);
 
-
     var newFigure = document.getElementById("target");
-
-    newFigure.setAttribute("src", image);
-
+    newFigure.appendChild(newImage);
 
     document.getElementById("source").remove();
 
 })();
+
+

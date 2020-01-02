@@ -19,6 +19,18 @@
         "../../_shared/img/map.svg",
     ];
 
-    // your code here
+    var images = 0;
 
+    //getting a response from the button
+    document.getElementById("next").addEventListener("click", function () {
+        //increment
+        images++;
+
+
+        //selecting specific 
+        document.querySelector("img").setAttribute("src", gallery[images]);
+
+        if(images>=4){
+            images = 0;
+        }})
 })();

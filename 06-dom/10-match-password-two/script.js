@@ -11,6 +11,40 @@
 
 (function() {
 
-    // your code here
+    //on click
+    document.getElementById("run").addEventListener("click", function f() {
+
+        //to get the values of both passwords input fields
+        var p1 = document.getElementById("pass-one");
+        var p2 = document.getElementById("pass-two");
+
+
+        //to test
+        console.log (p1,p2);
+
+        if (p1.value === p2.value) {
+
+            //selecting all the input fields and changing the color of it
+            var x = document.querySelectorAll("input");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.backgroundColor = "green";
+            }
+        } else if (p1.value !== p2.value ) {
+
+
+            // var x = document.querySelectorAll("input");
+            // var i;
+            // for (i = 0; i < x.length; i++) {
+            //     x[i].style.backgroundColor = "red";
+
+                p1.classList.add("error");
+                p2.classList.add("error");
+                
+            }
+
+
+
+    });
 
 })();

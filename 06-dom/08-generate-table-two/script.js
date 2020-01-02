@@ -10,7 +10,56 @@
 // You will have time to focus on it later.
 
 (function() {
+    //
+    //target where you want your table to be
+    // var target = document.getElementById("target");
+    // var newTable = document.createElement("table");
+    //
+    //
+    // //creating process
+    // for (var i = 0; i < 10; i++) {
+    //     // creates a table row
+    //     var row = newTable.insertRow();
+    //     row.insertCell();
+    //
+    // }
+    //
+    // //adding each row under eachother
+    // target.appendChild(newTable);
+    //
+    //
+    // var result = 'x ';
+    // for (var i = 0; i < 11; i++) {
+    //
+    //     for (var j = 0; j < 11; j++) {
+    //
+    //         if(i == 0 && j > 0){
+    //             result += '[' + j + ']';
+    //         }
+    //         else if(j == 0 && i>0){
+    //             result += '[' + i + '] ';
+    //         }
+    //         else if(i>0 && j>0){
+    //             result += (i*j) + ' ';
+    //         }
+    //     }
+    //     result += '\n'
+    // }
+    //
+    // console.log(result);
 
-    // your code here
+    // target where you want your table to be
+    var target = document.getElementById("target");
+    var newTable = document.createElement("table");
+    target.appendChild(newTable);
+
+    //Until 10
+    for(var i=0;i < 10; i++) {
+        var row = newTable.insertRow();
+        for (var j = 0; j < 10; j++) {
+            var column = row.insertCell();
+            column.innerHTML = (j + 1) * (i + 1);
+        }
+    }
 
 })();

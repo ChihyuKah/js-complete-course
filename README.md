@@ -14,7 +14,7 @@ Progression of exercises
 
 [Completed 06 dom](https://github.com/ChihyuKah/js-complete-course/tree/master/06-dom)
 
-Current exercise: 6.8
+Current exercise: 6.12
 
 
 

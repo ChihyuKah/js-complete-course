@@ -11,16 +11,31 @@
 
 (function() {
 
+
+    var input = document.getElementById("pass-one");
+    var counter = document.getElementById("counter");
+
+
+
+    document.getElementById('pass-one').setAttribute('maxlength',10);
+    input.addEventListener("input",function () {
+        counter.innerHTML = input.value.length + "/10"
+    })
+
+
+
+
+    // ----------- All the failed attempts-------------//
+
+
+
     // function charcountupdate(str) {
     //     var lng = str.length;
     //     document.getElementById("counter").innerHTML = lng;
-    //
     // }
 
 
-    document.getElementById('pass-one').setAttribute('maxlength',10)
-
-    // document.getElementById("counter").innerHTML = str;
+    // document.getElementById("counter").innerHTML = input.length;
 
     // function count()
     // {

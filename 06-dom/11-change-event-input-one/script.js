@@ -11,6 +11,35 @@
 
 (function() {
 
-    // your code here
+    // function charcountupdate(str) {
+    //     var lng = str.length;
+    //     document.getElementById("counter").innerHTML = lng;
+    //
+    // }
 
+
+    document.getElementById('pass-one').setAttribute('maxlength',10)
+
+    // document.getElementById("counter").innerHTML = str;
+
+    // function count()
+    // {
+    //     var total=document.getElementById("text").value;
+    //     total=total.replace(/\s/g, '');
+    //     document.getElementById("total").innerHTML="Total Characters:"+total.length;
+    // }
+    // var str ="";
+    //
+    // var strLength = str.length;
+    // var maxLength = 10;
+    //
+    // console.log(strLength)
+
+
+
+    // if(strLength > maxLength){
+    //     document.getElementsByClassName(".indicator").innerHTML = '<span style="color: red;">'+strLength+' out of '+maxLength+' characters</span>';
+    // }else{
+    //     document.getElementsByClassName(".indicator").innerHTML = strLength+' out of '+maxLength+' characters';
+    // }
 })();

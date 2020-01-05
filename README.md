@@ -16,7 +16,7 @@ Progression of exercises
 
 [In progress 07 misc](https://github.com/ChihyuKah/js-complete-course/tree/master/07-misc)
 
-Current exercise: 7.1
+Current exercise: 7.1 (Will skip 7.1 if I take too long)
 
 
 

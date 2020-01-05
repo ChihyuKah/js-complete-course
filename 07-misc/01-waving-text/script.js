@@ -11,6 +11,8 @@
 
 (function() {
 
-    // your code here
+    var text = document.getElementById("target").value;
+
+    // General idea in my head is to use RegExp to call diffrent fonts and size when the regexp matches
 
 })();

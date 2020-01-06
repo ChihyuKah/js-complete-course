@@ -13,7 +13,6 @@
 
     var i = 0;
     var txt = document.getElementById("target").innerHTML;
-    var speed = 50;
 
     document.getElementById("target").innerHTML = "";
 
@@ -21,11 +20,16 @@
         if (i < txt.length) {
             document.getElementById("target").innerHTML += txt.charAt(i);
             i++;
-            setTimeout(typeWriter, 4);
+
+            var random = Math.random() * 300;
+            setTimeout(typeWriter, random);
         }
     }
 
-
+    //to appear
+    typeWriter();
 
 
 })();
+
+

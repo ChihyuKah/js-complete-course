@@ -11,6 +11,21 @@
 
 (function() {
 
-    // your code here
+    var i = 0;
+    var txt = document.getElementById("target").innerHTML;
+    var speed = 50;
+
+    document.getElementById("target").innerHTML = "";
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("target").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, 4);
+        }
+    }
+
+
+
 
 })();

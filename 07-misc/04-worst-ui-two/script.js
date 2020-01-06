@@ -10,7 +10,47 @@
 // You will have time to focus on it later.
 
 (function() {
+    for (var i = 0; i < btn1.length; i++) {
+        var btn1 = document.getElementById("part-one").addEventListener("click", function () {
 
-    // your code here
+
+            document.getElementById("part-one").getAttribute(data - min);
+
+
+            document.getElementById("part-one").getAttribute(data - max);
+
+
+            var minval = btn1[i].getAttribute("data-min");
+            var maxval = btn1[i].getAttribute("data-max");
+            var current = btn1.innerHTML;
+
+            current++;
+
+            btn1[i].innerHTML;
+
+            // btn1.value = num1.innerHTML;
+            //
+            // num1.oninput = function() {
+            //     num1.innerHTML = this.value;
+            // };
+            console.log(current)
+
+
+})}
+
+
+
+    //
+    // var btn2 = document.getElementById("part-two").addEventListener("click", function () {
+    //
+    // });
+    //
+    // var btn3 = document.getElementById("part-three").addEventListener("click", function () {
+    //
+    // });
+    //
+    // var btn4 = document.getElementById("part-four").addEventListener("click", function () {
+    //
+    // });
 
 })();

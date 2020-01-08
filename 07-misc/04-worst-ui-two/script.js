@@ -21,12 +21,6 @@
     let current3 = btn3.innerText;
     let current4 = btn4.innerText;
 
-    function addZero (i) {
-        if (i < 10) {
-            i = "0" + i;
-        }
-    }
-
 
     btn1.addEventListener("click", function () {
 
@@ -119,30 +113,8 @@
         btn4.innerHTML = current4;
 
 
-      
+
     });
 
 })();
 
-//var btn1 = document.getElementById("part-one");
-//
-//     btn1.addEventListener("click", function () {
-//         target.innerHTML = "";
-//
-//                 var minval = btn1.getAttribute("data-min");
-//                 var maxval = btn1.getAttribute("data-max");
-//
-//
-//                 if (btn1.innerText < maxval ) {
-//                     btn1.innerText++;
-//
-//                     target.innerHTML = "+" + btn1.innerText;
-//
-//                 }
-//
-//                 console.log(minval);
-//                 console.log(maxval);
-//                 console.log(btn1.innerText);
-//                 // console.log(current);
-//
-//             })

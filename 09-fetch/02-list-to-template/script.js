@@ -14,8 +14,20 @@
        fetch("http://localhost:12345/_shared/api.json")
            .then(response => {
                return response.json();
-           }).then(data => {
-            console.log(data);
+           }).then(function (data) {
+
+
+            data.heroes.forEach(function (hero) {
+
+                const tmpl = document.getElementById('tpl-hero').content.cloneNode(true);
+                tmpl.querySelector('.name').innerText = hero.name;
+                 tmpl.querySelector('.alter-ego').innerText = hero.alterEgo;
+                 tmpl.querySelector('.powers').innerText = hero.abilities;
+
+            })
+           document.getElementById("target").appendChild(tmpl);
        })
     })
+
 })();
+
